@@ -1,0 +1,95 @@
+🌐 Web Development — Clean Beginner Notes
+🔹 1. MERN Stack (Full Stack Development)
+
+MERN = Complete app development stack
+
+M → MongoDB → Database (stores data)
+E → Express.js → Backend framework (handles requests)
+R → React.Js → Frontend (UI)
+N → Node.js → Runtime (runs JS on server)
+
+
+
+🔹 2. Three Pillars of Web Dev
+HTML → Structure (skeleton)
+CSS → Design (looks)
+JavaScript → Logic (brain)
+
+
+🔹 3. Other Stacks
+MEAN
+MERN (React instead of Angular)
+Java Full Stack
+
+
+
+🔹 4. Teams in Web Development
+Developers → Build features
+Testing Team → Find bugs
+DevOps Team → Deployment & hosting
+Support Team → Fix issues after release
+
+
+
+🔹 5. SDLC (Software Development Life Cycle)
+
+Different ways to build software:
+
+Waterfall → Step-by-step (rigid)
+Agile → Iterative (most used today)
+Spiral → Risk-focused
+Iterative → Repeat improvements
+Incremental → Build in parts
+V-Model → Testing + development parallel
+RAD → Fast development
+
+
+
+🔹 6. URL (Uniform Resource Locator)
+
+Example:
+
+https://education.rohanAcademy.edu/FullStack
+
+Breakdown:
+
+https → Protocol
+rohanAcademy → Domain (main name)
+education → Subdomain
+.edu → TLD (Top Level Domain)
+/FullStack → Path
+🔹 7. Protocols (Communication Rules)
+HTTP → Normal web communication
+HTTPS → Secure version
+TCP → Reliable data transfer
+UDP → Fast but unreliable
+SMTP → Email sending
+FTP → File transfer
+IP → Identifies devices (IPv4 / IPv6)
+
+
+
+🔹 8. Domain & Subdomain
+Domain:
+Unique name of a website
+Example: google, amazon
+Subdomain:
+Extensions of main domain
+Example:
+mail.google.com
+maps.google.com
+🔹 9. TLD (Top-Level Domain)
+
+Examples:
+
+.com → Commercial
+.org → Organization
+.edu → Education
+.in → India
+.uk → United Kingdom
+🔹 10. Code Editors
+Notepad (basic, almost useless now)
+Notepad++
+Sublime Text
+Visual Studio Code (Best choice)
+
