@@ -1,0 +1,82 @@
+🚀 Git & Version Control — Beginner Notes
+🔹 What is Git?
+
+Git is a version control system that helps you:
+
+Track changes in your code
+Collaborate with others
+Go back to previous versions if something breaks
+
+Think of it like:
+
+v1 → v2 → v3 → v4 (latest)
+
+You can move between versions anytime.
+
+🔹 Why Use Git?
+✅ Keeps history of your code
+✅ Makes teamwork easier
+✅ Helps recover deleted or broken code
+✅ Works with platforms like GitHub (cloud-based)
+🔹 First-Time Setup (One-Time Only)
+
+Before using Git, configure your identity:
+
+git config --global user.name "your-username"
+git config --global user.email "your-email"
+git config --global color.ui auto
+
+👉 Example:
+
+git config --global user.name "navneetcodespace"
+git config --global user.email "navneetsharma.connect@gmail.com"
+🔹 Starting a Project
+Initialize Git in your project:
+git init
+
+👉 This creates a hidden .git folder that tracks everything.
+
+🔹 Basic Workflow (Most Important Part)
+1. Check status
+git status
+
+👉 Shows what changed
+
+2. Add files
+git add .
+
+👉 Adds all files to staging area
+
+3. Commit changes
+git commit -m "your message"
+
+👉 Saves a snapshot of your code
+
+4. Push to GitHub
+git push
+
+👉 Uploads code to cloud (GitHub)
+
+🔹 Branching (Very Important)
+Create a new branch:
+git checkout -b branchname
+
+👉 Example:
+
+git checkout -b feature-login
+Switch between branches:
+git checkout branchname
+
+👉 Example:
+
+git checkout main
+🔹 Simple Flow Summary
+git init
+git add .
+git commit -m "message"
+git push
+🔹 Key Concepts (Don’t Ignore This)
+Repository (Repo) → Your project folder
+Commit → Saved version of your code
+Branch → Separate version for features
+Staging Area → Where files wait before commit
