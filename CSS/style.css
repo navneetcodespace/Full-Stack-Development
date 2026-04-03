@@ -1,0 +1,107 @@
+
+
+/* ========== BASIC SELECTORS ========== */
+
+/* Element selector */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial;
+}
+
+/* Class selector */
+.head {
+    color: navy;
+}
+
+/* ID selector */
+#special {
+    background-color: lightgreen;
+}
+
+/* Universal selector */
+* {
+    margin: 5px;
+}
+
+/* ========== GROUPING SELECTOR ========== */
+h1, h2 {
+    text-align: center;
+}
+
+/* ========== DESCENDANT SELECTOR ========== */
+div p {
+    color: purple;
+}
+
+/* ========== CHILD SELECTOR ========== */
+section > p {
+    color: brown;
+}
+
+/* ========== ADJACENT SIBLING ========== */
+h3 + p {
+    color: orange;
+}
+
+/* ========== GENERAL SIBLING ========== */
+h3 ~ span {
+    color: teal;
+}
+
+/* ========== ATTRIBUTE SELECTOR ========== */
+a[href="https://google.com"] {
+    color: red;
+}
+
+/* ========== PSEUDO-CLASSES ========== */
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: red;
+}
+
+/* ========== PSEUDO-ELEMENTS ========== */
+p::first-letter {
+    font-size: 24px;
+    color: crimson;
+}
+
+/* ========== COLORS IN CSS ========== */
+
+/* Named color */
+.named {
+    color: green;
+}
+
+/* HEX color */
+.hex {
+    color: #ff5733;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(0, 128, 255);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(120, 100%, 25%);
+}
+
+/* HSLA */
+.hsla {
+    color: hsla(300, 100%, 50%, 0.5);
+}
+
