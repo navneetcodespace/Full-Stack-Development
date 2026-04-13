@@ -1,0 +1,23 @@
+Colors in 
+
+🔹 Ways to Use Colors
+
+
+1. Color Names
+color: red;
+2. HEX
+color: #ff0000;
+3. RGB
+color: rgb(255, 0, 0);
+4. RGBA (with transparency)
+color: rgba(255, 0, 0, 0.5);
+
+
+🔹 Background Color
+body {
+  background-color: lightblue;
+}
+
+
+🔹 Gradient (Advanced)
+background: linear-gradient(to right, red, blue);
