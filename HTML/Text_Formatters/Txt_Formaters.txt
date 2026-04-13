@@ -1,0 +1,13 @@
+2. Text Formatters
+
+🔹 Common Tags
+
+<b>Bold</b>
+<strong>Important</strong>
+<i>Italic</i>
+<em>Emphasis</em>
+<u>Underline</u>
+<mark>Highlight</mark>
+<small>Small text</small>
+<del>Deleted</del>
+<ins>Inserted</ins>

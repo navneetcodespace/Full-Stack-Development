@@ -1,0 +1,22 @@
+Semantic Tags in HTML
+🔹 Why? : Better SEO + readability
+
+
+🔹 Common Tags
+
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
+
+
+🔹 Example Layout
+
+<header>My Website</header>
+<nav>Menu</nav>
+<section>
+  <article>Blog Post</article>
+</section>
+<footer>Copyright</footer>

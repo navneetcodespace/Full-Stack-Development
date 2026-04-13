@@ -1,0 +1,24 @@
+<!-- 1. Head Tag in HTML
+🔹 What is <head>?
+
+The <head> contains metadata (info about your webpage, not visible content).
+
+
+🔹 Basic Structure
+<head>
+  <title>My Website</title>
+</head>
+
+
+🔹 Important Tags
+ Tag	Purpose
+
+<title>	Page title (browser tab)
+<meta>	SEO, charset, responsiveness
+<link>	Connect CSS
+<style>	Internal CSS
+<script>	JavaScript
+    
+
+
+

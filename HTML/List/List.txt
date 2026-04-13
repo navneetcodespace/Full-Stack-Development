@@ -1,0 +1,22 @@
+Lists in HTML
+
+
+🔹 Types
+
+1. Unordered List
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+</ul>
+
+2. Ordered List
+<ol>
+  <li>Step 1</li>
+  <li>Step 2</li>
+</ol>
+
+3. Description List
+<dl>
+  <dt>HTML</dt>
+  <dd>Markup language</dd>
+</dl>

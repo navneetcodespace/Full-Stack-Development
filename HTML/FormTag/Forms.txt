@@ -1,0 +1,38 @@
+Forms in HTML
+
+🔹 Basic Form
+<form>
+  <input type="text" placeholder="Enter name">
+  <button>Submit</button>
+</form>
+
+
+🔹 Input Types
+<input type="text">
+<input type="email">
+<input type="password">
+<input type="number">
+<input type="date">
+<input type="checkbox">
+<input type="radio">
+
+
+🔹 Labels & Validation
+
+<form>
+  <label>Name:</label>
+  <input type="text" required>
+
+  <label>Email:</label>
+  <input type="email" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+
+🔹 Dropdown
+
+<select>
+  <option>India</option>
+  <option>USA</option>
+</select>

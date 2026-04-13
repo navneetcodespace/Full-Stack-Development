@@ -1,0 +1,15 @@
+3. Images in HTML
+
+🔹 Basic Syntax
+<img src="image.jpg" alt="Description">
+
+🔹 Attributes
+
+src	: Image path
+alt : Accessibility
+width/height: Size
+
+
+🔹 Example
+
+<img src="cat.jpg" alt="Cute Cat" width="200">

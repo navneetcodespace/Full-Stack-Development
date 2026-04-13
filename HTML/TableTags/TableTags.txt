@@ -1,0 +1,53 @@
+1. What is a Table in HTML?
+
+An HTML table is used to display data in rows and columns (like Excel).
+
+
+Understanding Each Tag
+
+1. <table>
+This is the main container of the table.
+
+👉 Think of it as the full table box.
+
+
+2. <tr> (Table Row)
+Defines a row in the table.
+
+👉 Each <tr> = one horizontal line.
+
+
+3. <th> (Table Header)
+Defines a header cell.
+Text is bold + centered by default.
+
+👉 Used for titles like Name, Age
+
+
+4. <td> (Table Data)
+Defines normal data cells.
+
+👉 Used for actual values like Navneet, 22
+
+Advance Concepts Explained
+
+🔸 1. border="1"
+Adds a border around the table.
+
+👉 Without CSS, this is the simplest way to show borders.
+
+
+🔸 2. colspan
+<th colspan="2">Details</th>
+Means column span
+This cell will take 2 columns space
+
+👉 Instead of 2 separate columns → it merges them
+
+
+🔸 3. rowspan
+<td rowspan="2">Navneet</td>
+Means row span
+This cell will take 2 rows height
+
+👉 Merges vertically

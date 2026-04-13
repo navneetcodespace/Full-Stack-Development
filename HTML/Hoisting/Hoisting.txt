@@ -1,0 +1,14 @@
+10. Hosting the Application
+
+🔹 Steps
+Create HTML file
+Use hosting platform:
+GitHub Pages
+Netlify
+Vercel
+
+
+🔹 Simple Method (GitHub Pages)
+Upload code
+Enable Pages
+Get live URL
