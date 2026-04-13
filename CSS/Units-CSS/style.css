@@ -1,0 +1,47 @@
+/* Absolute Unit (px) */
+.box-px {
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+/* Percentage (%) */
+.box-percent {
+  width: 50%;
+  height: 100px;
+  background-color: lightgreen;
+  margin: 10px;
+}
+
+/* em (relative to parent font size) */
+.box-em {
+  font-size: 20px;
+}
+
+.box-em {
+  width: 10em;   /* 10 × 20px = 200px */
+  height: 5em;
+  background-color: lightcoral;
+  margin: 10px;
+}
+
+/* rem (relative to root font size) */
+html {
+  font-size: 16px;
+}
+
+.box-rem {
+  width: 10rem;  /* 10 × 16px = 160px */
+  height: 5rem;
+  background-color: lightpink;
+  margin: 10px;
+}
+
+/* vh / vw (viewport units) */
+.box-vh-vw {
+  width: 50vw;   /* 50% of screen width */
+  height: 30vh;  /* 30% of screen height */
+  background-color: lightyellow;
+  margin: 10px;
+}

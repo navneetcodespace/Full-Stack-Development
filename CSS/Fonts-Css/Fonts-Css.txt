@@ -1,0 +1,96 @@
+🔤 Text & Fonts in CSS
+
+CSS helps you control how your text looks and feels on a webpage.
+
+📝 1. Text Properties
+
+These control appearance and alignment of text
+
+🔹 Common Text Properties
+
+1. Color
+p {
+  color: blue;
+}
+
+2. Text Alignment
+h1 {
+  text-align: center;
+}
+
+👉 Values: left, right, center, justify
+
+3. Text Transform
+p {
+  text-transform: uppercase;
+}
+
+👉 Values:
+
+uppercase
+lowercase
+capitalize
+
+4. Line Height (Spacing between lines)
+p {
+  line-height: 1.5;
+}
+
+5. Letter Spacing
+p {
+  letter-spacing: 2px;
+}
+
+6. Text Decoration
+a {
+  text-decoration: none;
+}
+
+👉 Used for:
+
+underline
+line-through
+overline
+
+🔤 2. Font Properties
+
+These control the style of the text itself
+
+🔹 Common Font Properties
+
+1. Font Family
+body {
+  font-family: Arial, sans-serif;
+}
+
+👉 Defines typeface
+
+2. Font Size
+p {
+  font-size: 16px;
+}
+
+3. Font Weight
+h1 {
+  font-weight: bold;
+}
+
+👉 Values: normal, bold, 100–900
+
+4. Font Style
+p {
+  font-style: italic;
+}
+
+🌐 3. Using Custom Fonts (Google Fonts)
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+✨ 4. Advanced Text Styling
+
+🔹 Text Shadow
+h1 {
+  text-shadow: 2px 2px 5px gray;
+}

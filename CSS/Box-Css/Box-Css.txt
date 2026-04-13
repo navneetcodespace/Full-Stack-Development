@@ -1,0 +1,47 @@
+📦 Box Model in CSS
+🔹 What is the Box Model?
+
+Every HTML element is treated as a rectangular box.
+
+It consists of 4 layers:
+
+Margin → Border → Padding → Content
+🔹 Breakdown of Each Part
+
+1. 🧾 Content
+The actual text or element inside
+Controlled by width and height
+
+2. 📦 Padding
+Space inside the element, between content and border
+Increases the size of the box
+padding: 20px;
+
+3. 🧱 Border
+Wraps around padding and content
+border: 5px solid black;
+
+4. 🌌 Margin
+Space outside the element
+Controls spacing between elements
+margin: 10px;
+
+
+🔥 Important Concept
+
+By default:
+
+👉 Total width =
+width + padding + border
+
+So your element becomes bigger than expected
+
+⚡ Box Sizing (Advanced)
+
+To fix this problem, we use:
+
+* {
+  box-sizing: border-box;
+}
+✅ What it does:
+Includes padding + border inside width

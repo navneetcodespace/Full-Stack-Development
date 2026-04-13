@@ -1,0 +1,27 @@
+4. Units in CSS
+
+🔹 Absolute Units
+
+px:	Pixels
+cm:	Centimeters
+
+h1 {
+  font-size: 20px;
+}
+
+
+🔹 Relative Units (IMPORTANT)
+
+
+1. Percentage (%)
+width: 50%;
+
+2. em
+font-size: 2em;
+
+3. rem (Best Practice)
+font-size: 1.5rem;
+
+4. vh / vw (Viewport)
+height: 100vh;
+width: 50vw;
