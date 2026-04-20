@@ -1,43 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     background-color: #f5f7fa;
-}
-.navbar{
-    position: relative;
-    padding: 15px 0;
-}
-
-.navbar .logo{
-   position: absolute;
-   left: 20px;
-   top: 15px;
-   font-size: 20px;
-}
-
-.menu{
-    text-align: center;
-}
-
-.menu a{
-    display: inline-block;
-    margin: 0 15px ;
-    text-decoration: none;
-    color: #333;
-    
-}
-
-.user{
-    position:absolute;
-    top: 10px;
-    right: 20px;
-    background: rgb(195, 195, 236);
-    border-radius: 10px;
-    padding: 8px 15px;
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -46,57 +6,87 @@
 
 body {
     font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: relative;
+    padding: 20px 60px;
+}
+
+.logo {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu {
+    text-align: center;
+}
+
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+.user {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    background-color: #e3f2fd;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #1e88e5;
+}
+
+
+.hero {
+    padding: 80px 60px;
     overflow: hidden;
 }
 
-/* HERO SECTION */
-.hero {
-    height: 100vh;
-    width: 100%;
-    background: #f5f7fa;
-    padding: 0 80px;
-    text-align: center;
-    line-height: 100vh; 
-}
-
-
-.left_hero,
-.right_hero {
-    display: inline-block;
-    vertical-align: middle;
-    width: 49%;
-    line-height: normal;
-    text-align: left;
+.left_hero {
+    float: left;
+    width: 50%;
 }
 
 .left_hero h1 {
-    font-size: 48px;
-    line-height: 1.2;
+    font-size: 50px;
+    line-height: 1.3;
+    color: #333;
 }
 
 .left_hero span {
-    color: #1da1f2;
+    color: #1e88e5;
 }
 
 .left_hero p {
     margin: 20px 0;
-    color: #666;
-    width: 80%;
+    color: #777;
+    line-height: 1.6;
 }
 
 .book {
-    padding: 15px 30px;
-    background: #1da1f2;
+    padding: 15px 25px;
+    background-color: #1e88e5;
+    color: #fff;
     border: none;
-    border-radius: 10px;
-    color: white;
+    border-radius: 8px;
 }
 
-
 .right_hero {
-    text-align: center;
+    float: right;
+    width: 50%;
+    position: relative;
+    left: 63px;
 }
 
 .right_hero img {
+    position: absolute;
+    right: 80px;
+    top: 0;
     width: 350px;
 }
