@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vh;
+    height: 80vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    border: 2px solid black;
+    background-color: white;
+}
+.container img {
+    width: 100%;
+    height: 70%;
+    display: block;
+    object-fit: cover;
+}
+.container button {
+    width: 100%;
+    height: 30%;
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(181, 115, 115);
+    cursor: pointer;
+    background: linear-gradient(to right, #f5b700, #4cd137);
+}
