@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <script>
+    // What are Operators? : Operators are symbols that perform operations on values.
+
+    let a = 10;
+    let b = 5;
+
+    console.log(a + b); // 15
+
+    // 2. Types of Operators
+        // 2.1 Arithmetic Operators
+            // Basic math.
+
+                // +   Addition
+                // -   Subtraction
+                // *   Multiplication
+                // /   Division
+                // %   Modulus (remainder)
+                // **  Exponentiation
+
+            console.log(10 % 3); // 1
+            console.log(2 ** 3); // 8
+
+        // 2.2 Assignment Operators
+                // =    assign
+                // +=   add and assign
+                // -=   subtract and assign
+                // *=   multiply
+                // /=   divide
+            let x1 = 10;
+            x += 5; // 15
+
+        // 2.3 Comparison Operators
+                // ==   loose equality
+                // ===  strict equality
+                // !=
+                // !== 
+                // >
+                // <
+                // >=
+                // <=
+            console.log(5 == "5");   // true 
+            console.log(5 === "5");  // false 
+
+        // 2.4 Logical Operators
+                // &&   AND
+                // ||   OR
+                // !    NOT
+                // true && false  false
+                // true || false  true
+                // !true          false
+
+            if (user && user.isLoggedIn) {
+            console.log("Access granted");
+            }
+
+    // These don’t return true/false always—they return values.
+
+                // console.log("Hello" && 5); // 5
+                // console.log(0 || "Default"); // "Default"
+
+        // 2.5 Unary Operators
+                // typeof
+                // ++
+                // --
+                // let a = 5;
+                // a++;  6
+
+            let x = 5;
+
+            console.log(x++); // 5 (then becomes 6)
+            console.log(++x); // 7
+
+
+
+        // 2.6 Ternary Operator
+
+            // Shortcut for if-else.
+
+            // condition ? value1 : value2;
+            // let age = 18;
+            // let result = age >= 18 ? "Adult" : "Minor";
+
+            // // BAD
+            // a > b ? a > c ? a : c : b > c ? b : c;
+
+        
+        
+        // 2.7 Type Operators
+            // typeof
+            // instanceof
+            // typeof "hello" "string"
+            // typeof null    "object" 
+
+
+
+        // 2.8 Bitwise Operators (Advanced – don’t skip)
+            // &  AND
+            // |  OR
+            // ^  XOR
+            // << left shift
+            // >> right shift
+
+
+    // 3. Operator Precedence
+        console.log(2 + 3 * 4); // 14, not 20
+        // Because:
+        // * > +
+
+        // (2 + 3) * 4 // 20
+    
+    // 4. Truthy & Falsy (Critical)
+
+// Falsy values:
+
+// false, 0, "", null, undefined, NaN
+
+        // Everything else = truthy.
+
+        if ("hello") {
+        console.log("runs"); // runs
+        }
+
+
+
+            if ([])  // true
+            if ({})  // true
+
+        // Empty array/object is NOT false.
+
+    // 5. Short-Circuiting (Power Move)
+        // let name = userName || "Guest";
+        // let isLoggedIn = true;
+        // isLoggedIn && console.log("Welcome");
+
+    // 6. Nullish Coalescing (Advanced but IMPORTANT)
+
+    // let value = null ?? "default"; // "default"
+
+        // Difference from ||:
+
+        // 0 || 100   // 100 
+        // 0 ?? 100   // 0 
+
+
+    // 7. Optional Chaining (Modern JS)
+        // user?.profile?.name
+
+
+    // 8. Real-world Combo Example
+        // let user = {
+        // name: "Navneet",
+        // isLoggedIn: true
+        // };
+
+        // let message = user?.isLoggedIn 
+        // ? `Welcome ${user.name}` 
+        // : "Please login";
+
+console.log(message);
+
+    </script>
+</body>
+</html>
