@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS-Loops</title>
+    </head>
+    <body>
+
+        <script>
+
+
+// 1. What is a Loop? : A loop runs a block of code repeatedly until a condition is false.
+
+        for (let i = 0; i < 5; i++) {
+        console.log(i);
+        }
+
+// 2. Types of Loops in JS
+
+    // 2.1 for loop (Most important)
+        for (initialization; condition; update) {
+        // code
+        }
+        for (let i = 1; i <= 5; i++) {
+         console.log(i);
+        }
+
+
+// 2.2 while loop
+        let mi = 1;
+
+        while (mi <= 5) {
+        console.log(mi);
+        i++;
+        }
+
+
+// 2.3 do...while loop
+        let ni = 1;
+
+        do {
+        console.log(ni);
+        ni++;
+        } while (ni <= 5);
+
+
+// 2.4 for...of (Best for arrays)
+        let arr1 = [10, 20, 30];
+
+        for (let value of arr1) {
+        console.log(value);
+        }
+
+
+// 2.5 for...in (Objects)
+        let user = {
+        name: "Navneet",
+        age: 21
+        };
+
+        for (let key in user) {
+        console.log(key, user[key]);
+        }
+
+
+// 3. Loop Control (THIS is where logic comes in)
+//  break
+
+// Stops loop immediately.
+
+        for (let i = 1; i <= 5; i++) {
+        if (i === 3) break;
+        console.log(i);
+        }
+
+// continue
+
+// Skips current iteration.
+
+        for (let i = 1; i <= 5; i++) {
+        if (i === 3) continue;
+        console.log(i);
+        }
+
+// 4. Nested Loops (Where people struggle)
+
+        for (let i = 1; i <= 3; i++) {
+        for (let j = 1; j <= 3; j++) {
+            console.log(i, j);
+        }
+        }
+
+
+// 5. Real Use Cases (Not just theory)
+// 1. Sum of numbers
+        let sum = 0;
+
+        for (let i = 1; i <= 5; i++) {
+        sum += i;
+        }
+
+        console.log(sum);
+    
+// 2. Find even numbers
+        for (let i = 1; i <= 10; i++) {
+        if (i % 2 === 0) {
+            console.log(i);
+        }
+        }
+
+// 3. Loop through array
+        let arr2 = [5, 10, 15];
+
+        for (let i = 0; i < arr2.length; i++) {
+        console.log(arr2[i]);
+        }
+
+// 6. Advanced Concepts (Where beginners fail)
+// Infinite Loop (common mistake)
+        for (let i = 1; i <= 5;) {
+        console.log(i); // ❌ no increment
+        }
+
+
+// Scope of let vs var
+        for (var i = 0; i < 3; i++) {}
+
+        console.log(i); // 3 
+        for (let i = 0; i < 3; i++) {}
+
+        console.log(i); // ❌ 
+
+
+// Loop + Condition Combo (Real logic)
+
+        let arr3 = [10, 25, 30, 45];
+
+        for (let num of arr3) {
+        if (num > 20) {
+            console.log(num);
+        }
+        }
+
+// 7. Modern Alternatives (Don’t ignore these)
+        forEach
+        let arr = [1, 2, 3];
+
+        arr.forEach((num) => {
+        console.log(num);
+        });
+
+    </script>
+    
+    </body>
+</html>

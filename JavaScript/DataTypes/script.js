@@ -61,11 +61,11 @@ if ("0") console.log("runs"); // runs
 // Blind spot:
 
 if ([]) // true
-if ({}) // true
+    if ({}) // true
 
-// 6. Deep vs Shallow Copy (Advanced but IMPORTANT)
-// ❌ Shallow Copy
-let obj1 = { name: "Navneet" };
+        // 6. Deep vs Shallow Copy (Advanced but IMPORTANT)
+        // ❌ Shallow Copy
+        let obj1 = { name: "Navneet" };
 let obj2 = obj1;
 
 obj2.name = "Dev";
