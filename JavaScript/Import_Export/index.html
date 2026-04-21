@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Import-Export</title>
+</head>
+<body>
+    <script>
+// PART 2: EXPORT / IMPORT (Modules in JS)
+
+// 1. Why Export/Import? : To split code into files and keep it clean.
+
+// 2. Named Export
+        // file: math.js
+        export const add = (a, b) => a + b;
+        export const sub = (a, b) => a - b;
+        // file: main.js
+        import { add, sub } from "./math.js";
+
+        console.log(add(2, 3));
+
+// 3. Default Export
+
+// file: greet.js
+        export default function greet() {
+        console.log("Hello");
+        }
+        import greet from "./greet.js";
+
+// Only ONE default export per file
+
+// 4. Mixing Both
+
+        export const name = "Navneet";
+
+        export default function greet() {
+        console.log("Hello");
+        }
+        import greet, { name } from "./file.js";
+
+// 5. Renaming Imports (Underrated Skill)
+        import { add as sum } from "./math.js";
+
+
+// 6. Import Everything
+        import * as math from "./math.js";
+        console.log(math.add(2, 3));
+
+
+// 7. Common Mistakes (You’re likely doing these)
+        // Wrong path
+        import { add } from "math.js"; 
+        // Correct
+        import { add } from "./math.js";
+
+    </script>
+</body>
+</html>
