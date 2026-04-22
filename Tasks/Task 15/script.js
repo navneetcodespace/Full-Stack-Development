@@ -1,4 +1,5 @@
 let arr = [4,8,2,11,6,7,10]
+console.log(arr)
 
 function maxnum(arr){
     let max = 0;
