@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://192.168.1.50:3002/CSS/Mini Project/1_Bella_Vista/index.html",
+            "request": "launch",
+            "url": "http://192.168.1.50:3002/CSS/Mini Project/1_Bella_Vista/index.html"
+        }
+    ]
+}
